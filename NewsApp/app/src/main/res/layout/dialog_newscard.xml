@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/dialog_newsCard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content" >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/dialog_newsCardImage"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_guardian"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dialog_newsCardTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_newsCardImage"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/dialog_newsCardTwitterIcon"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bluetwitter"
+        app:layout_constraintStart_toStartOf="@id/dialog_newsCard"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_newsCardGuideline2"
+        app:layout_constraintTop_toBottomOf="@id/dialog_newsCardTitle" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/dialog_newsCardGuideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.5"
+        android:background="@drawable/shape_line"
+        android:orientation="vertical"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/dialog_newsCardBookMarkIcon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_bookmark_orange"
+        app:layout_constraintBottom_toBottomOf="@id/dialog_newsCard"
+        app:layout_constraintEnd_toEndOf="@id/dialog_newsCard"
+        app:layout_constraintStart_toEndOf="@+id/dialog_newsCardGuideline2"
+        app:layout_constraintTop_toBottomOf="@id/dialog_newsCardTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

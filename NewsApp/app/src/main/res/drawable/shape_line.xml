@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 類型 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <!-- 邊框線 這邊用來控制虛線或實心線 -->
+    <stroke
+        android:width="2dp"
+        android:color="#18506C"
+        android:dashGap="2dp"
+        android:dashWidth="4dp" />
+    <!-- 形狀的高度 -->
+    <size android:height="10dp" />
+</shape>

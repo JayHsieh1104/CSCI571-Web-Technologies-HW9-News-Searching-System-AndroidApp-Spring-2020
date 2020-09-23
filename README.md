@@ -23,13 +23,16 @@ For each article, after expanding, the user can even add comments on the article
 ## Example Results
 
 1. Home page
-    ![](https://i.imgur.com/3XorjBa.png)
+
+![](https://i.imgur.com/3XorjBa.png)
 
 2. Detailed article page
-    ![](https://i.imgur.com/EPQhXIE.png)
+
+![](https://i.imgur.com/EPQhXIE.png)
 
 3. Bookmarks
-    ![](https://i.imgur.com/idvHRpr.png)
+
+![](https://i.imgur.com/idvHRpr.png)
 
 ## License
 
